@@ -19,7 +19,7 @@ int Solution::repeatedNumber(const vector<int> &A) {
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
     // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-  
+  //Please explain the logic of slow and fast. Thanks
     int slow = A[0];
   int fast = A[A[0]];
   while (slow != fast) {
